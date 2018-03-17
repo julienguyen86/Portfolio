@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<head>
+    <meta charset="utf-8">
+    <title>TV Shows GifTastic!</title>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+         <h1>TV Shows Search</h1>
+        <div class="row">
+            <div class="col-md-9">
+                <div id="showButtons"></div>
+            </div>
+            <div class="col-md-3">
+                <form id="show-form">
+                    <label for="show-input">Add a TV Show</label>
+                    <input type="text" id="show-input">
+                    <input id="addShow" type="submit" value="Submit" class="btn btn-danger">
+                </form>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3 btn-group-vertical" role="group" id="buttonsBar"></div>
+            <div class="col-md-9">
+            <!-- <div class="col-md-12"> -->
+                <div class="row" id="shows"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Link Javascript -->
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+</body>
+
+</html>
